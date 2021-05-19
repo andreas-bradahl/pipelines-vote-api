@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="c633d87c-cbad-4b2a-8dfd-72abab1378fe" activeEnvironment="Default" name="REST Project 1" resourceRoot="" soapui-version="5.6.0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Export All" value="false"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="TestSuite" value="&lt;all>"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value=""/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="TestCase" value="&lt;all>"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="false"/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:RestService" id="3541d7dd-eed2-4fc9-940a-b01be9e7bab2" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://pipelines-vote-ui-pipelines-tutorial.apps-crc.testing" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://pipelines-vote-ui-pipelines-tutorial.apps-crc.testing</con:endpoint></con:endpoints><con:resource name="" path="" id="1ba33528-532e-4513-8fbf-eba573509c30"><con:settings/><con:parameters/><con:method name="1" id="6baba21b-656a-48e1-9f6f-b33f80654f65" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>text/html; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:request name="Request 1" id="d2259a00-6713-4a69-bc37-0c96d9189790" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://pipelines-vote-ui-pipelines-tutorial.apps-crc.testing</con:endpoint><con:request/><con:originalUri>http://pipelines-vote-ui-pipelines-tutorial.apps-crc.testing/</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="56db903f-f29e-46c2-b875-5cb85dd1777f" name="TestSuite 1"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="bfa86d61-c16d-4aee-b445-11f987b6640e" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Verify http status OK" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="1 - Request 1" id="86876270-7cf5-4953-92b0-41d2e6abcb30"><con:settings/><con:config service="http://pipelines-vote-ui-pipelines-tutorial.apps-crc.testing" resourcePath="" methodName="1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="1 - Request 1" id="d2259a00-6713-4a69-bc37-0c96d9189790" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://pipelines-vote-ui-pipelines-tutorial.apps-crc.testing</con:endpoint><con:request/><con:originalUri>http://pipelines-vote-ui-pipelines-tutorial.apps-crc.testing/</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="6d6074ef-1116-4f50-94e9-e1a8ec606fb7" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
